@@ -1,0 +1,35 @@
+date - כשאני רוצה לעדכן את התאריך שכרגע המחשב מציג
+time - כשאני רוצה לעדכן את השעה שכרגע המחשב מציג
+
+dir - (directory) - get the list of current directory files
+cls - (clear screen) - נמחק CMD כשמפעילים את הפקודה כל מה שהיה בחלון
+cd.. - כשאני נמצאת בספרייה מסויימת ורוצה לעלות רמה אחת למעלה, ל"אבא" של הספרייה, זאת הפקודה שאני מכניסה
+cd fileName - (change directory) - כניסה לספרייה
+cd\ - יציאה מספרייה
+md fileName - (make directory) - יצירת ספרייה
+tree - מקבלים את עץ הספריות בצורה גרפית
+commandName /? - מקבלים את כל האופציות שיש לפקודה הזאת
+help commandName - מקבלים את כל האופציות שיש לפקודה הזאת
+dir /o:n - ממיין את הקבצים לפי שם 
+dir /o:e - extension ממיין את הקבצים לפי 
+dir /o:s - ממיין את הקבצים לפי גודל
+dir /p - pauses after each screenful of information
+dir /p /o:n - גם נותן את אופציית המיון לפי שם וגם עוצר בכל מסך
+rmdir /s fileName - (remove directory) - מחיקת ספרייה
+
+dir > a.txt(any file name) - dir - כשנשתמש בסימן גדול ולאחר מכן שם של קובץ זה ייצור קובץ חדש וישים בתוך הקובץ את התכולה של מה שנמצא ב 
+copy a.txt(any file name) location - (\newName.txt מעתיק את הקובץ למקום שאמרנו לו. (במידה ואני רוצה לשנות לקובץ המועתק את השם, בסיום של המיקום אני צריכה לכתוב 
+del a.txt(any file name) - מחיקת קובץ
+move a.txt(any file name) location - העברת קובץ למקום אחר. מציינים את המיקום החדש
+type a.txt(any file name) - CMD - הפקודה פותחת את תכולת הקובץ ומציגה את זה ב
+attrib +R a.txt(any file name) - ממצב רגיל. (אי אפשר למחוק את הקובץ כשהוא במצב הזה) read only - של קובץ ל  attribute משנה 
+attrib -R a.txt(any file name) - read only מחזיר את הקובץ למצב רגיל ממצב 
+attrib +H a.txt(any file name) - hidden - הופך את הקובץ ל
+attrib -H a.txt(any file name) - מסיר את המצב המוסתר של הקובץ
+dir /AH - (attribute hidden) - CMD - מראה את הקובץ המוסתר ב
+
+dir a.txt(any file name) - מביא את הקובץ, את הנתונים שלו (גודל, מתי נוצר וכדומה) 
+dir *.txt - txt מביא רק את הקבצים שהסיומת שלהם היא 
+dir number*.txt - will fetch all files that start with this number and end in .txt
+dir number*.* - will fetch all files that start with this number and end with any extension
+dir number?number*.* - (example:  dir 8?4*.*) -  שמונה זאת ההתחלה של הקובץ, הסימן שאלה אומר שבתו הזה יכול להיות כל מספר אבל רק בתו אחד, לאחר מכן צריך להיות 4 ואחר כך כל השאר וכל סיומת
