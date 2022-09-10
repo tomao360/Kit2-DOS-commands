@@ -33,3 +33,8 @@ dir *.txt - txt מביא רק את הקבצים שהסיומת שלהם היא
 dir number*.txt - will fetch all files that start with this number and end in .txt
 dir number*.* - will fetch all files that start with this number and end with any extension
 dir number?number*.* - (example:  dir 8?4*.*) -  שמונה זאת ההתחלה של הקובץ, הסימן שאלה אומר שבתו הזה יכול להיות כל מספר אבל רק בתו אחד, לאחר מכן צריך להיות 4 ואחר כך כל השאר וכל סיומת
+
+echo - הפקודה לא עושה כלום מלבד להדפיס
+pause - פקןדה לעצירה בין פקודה לפקודה
+tasklist - שרצים במערכת processes - הפקודה מביאה את כל ה  
+tasklist | find "programName.exe" - מתוך הרשימה הוא עושה סינון ומביא רק את מה שביקשנו
